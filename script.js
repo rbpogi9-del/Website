@@ -4,7 +4,7 @@ const albums = {
         media: [
             {
                 type: "video",
-                src: "https://streamable.com/9glbp4",
+                src: "https://streamable.com/2hsuzg",
                 caption: "Path-Fit Exercise Activity"
             },
 
@@ -304,4 +304,5 @@ function handleSwipe() {
     } else if (touchEndX > touchStartX + swipeThreshold) {
         prevSlide();
     }
+
 }
