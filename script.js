@@ -51,7 +51,7 @@ const albums = {
             },
             {
                 type: "image",
-                src: "https://live.staticflickr.com/65535/54923076585_9ee4983db5_b.jpg",
+                src: "https://flic.kr/p/2rGCjfK",
                 caption: "Feur Sub First Online Class"
             },
 
@@ -304,4 +304,5 @@ function handleSwipe() {
     } else if (touchEndX > touchStartX + swipeThreshold) {
         prevSlide();
     }
+
 }
