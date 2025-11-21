@@ -4,9 +4,7 @@ const albums = {
         media: [
             {
                 type: "video",
-                src: "<a data-flickr-embed="true" href="https://www.flickr.com/photos/203820652@N07/54937463015/in/dateposted-public/" title="fir2">
-                <img src="https://live.staticflickr.com/65535/54937463015_fcba374b83_b.jpg" width="768" height="1024" alt="fir2"/></a>
-                <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>",
+                src: "https://streamable.com/9glbp4",
                 caption: "Path-Fit Exercise Activity"
             },
 
@@ -154,7 +152,7 @@ function openAlbum(albumId) {
         sliderDots.appendChild(dot);
     });
     
-    // Update caption
+    
     updateCaption();
     
     // Show modal with animation
@@ -307,11 +305,3 @@ function handleSwipe() {
         prevSlide();
     }
 }
-
-
-
-
-
-
-
-
