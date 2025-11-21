@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshman Year Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Journey as College Freshmen of FEU-Roosevelt</h1>
+            <p>Capturing the journey of My first college year</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="albums-grid">
+            <div class="album-card" data-album-id="1">
+                <div class="album-cover">
+                    <img src="https://github.com/rbpogi9-del/Website/blob/735ada3ee6afbe16b351d8b31e9c44157ece3824/website%20pictures/Video%20Project%201%20(1).mp4" alt="Path-Fit">
+                    <div class="album-overlay">
+                        <span class="view-album">View Album</span>
+                    </div>
+                </div>
+                <h3>Path-Fit Activity</h3>
+                <p>Exercise Activity</p>
+            </div>
+
+
+            <div class="album-card" data-album-id="2">
+                <div class="album-cover">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Dorm Life">
+                    <div class="album-overlay">
+                        <span class="view-album">View Album</span>
+                    </div>
+                </div>
+                <h3>Dorm Life</h3>
+                <p>Life in the freshman residence halls</p>
+            </div>
+
+
+            <div class="album-card" data-album-id="3">
+                <div class="album-cover">
+                    <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="First Semester Classes">
+                    <div class="album-overlay">
+                        <span class="view-album">View Album</span>
+                    </div>
+                </div>
+                <h3>First Semester Classes</h3>
+                <p>Navigating academic challenges</p>
+            </div>
+
+
+            <div class="album-card" data-album-id="4">
+                <div class="album-cover">
+                    <img src="https://images.unsplash.com/photo-1541336032412-2048a678540d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Campus Events">
+                    <div class="album-overlay">
+                        <span class="view-album">View Album</span>
+                    </div>
+                </div>
+                <h3>Campus Events</h3>
+                <p>Football games, concerts, and more</p>
+            </div>
+
+
+            <div class="album-card" data-album-id="5">
+                <div class="album-cover">
+                    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Study Sessions">
+                    <div class="album-overlay">
+                        <span class="view-album">View Album</span>
+                    </div>
+                </div>
+                <h3>Study Sessions</h3>
+                <p>Late nights in the library</p>
+            </div>
+
+
+            <div class="album-card" data-album-id="6">
+                <div class="album-cover">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Friends & Social Life">
+                    <div class="album-overlay">
+                        <span class="view-album">View Album</span>
+                    </div>
+                </div>
+                <h3>Friends & Social Life</h3>
+                <p>Making lifelong connections</p>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="modal" id="albumModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-header">
+                <h2 id="modalTitle">Album Title</h2>
+            </div>
+            <div class="modal-body">
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                        <div class="slider-track" id="sliderTrack">
+                            <!-- Media items will be inserted here by JavaScript -->
+                        </div>
+                    </div>
+                    <button class="slider-nav prev-btn" id="prevMediaBtn">&#10094;</button>
+                    <button class="slider-nav next-btn" id="nextMediaBtn">&#10095;</button>
+                    <div class="slider-dots" id="sliderDots">
+                        <!-- Dots will be inserted here by JavaScript -->
+                    </div>
+                </div>
+                <div class="media-caption" id="mediaCaption">
+                    <!-- Caption will be updated by JavaScript -->
+                </div>
+                <div class="modal-navigation">
+                    <button class="nav-btn" id="prevAlbumBtn">Previous Album</button>
+                    <button class="nav-btn" id="nextAlbumBtn">Next Album</button>
+                    <button class="nav-btn home-btn" id="homeBtn">Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Freshman Year Memories</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
